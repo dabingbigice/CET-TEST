@@ -6,5 +6,6 @@
 
 4.运行工程 scrapy crawl cet-spider
 
+5.下载4级和6级的路径不同，注意修改cet_spider.py中path的路径，改为/Learn/CET/CET4或者/Learn/CET/CET6
 
-5.下载4级和6级的路径不同，注意修改cet_spider中path的路径，改为/Learn/CET/CET4或者/Learn/CET/CET6
+6.sleep函数是必须的建议不要修改，如果过快会被封ip。
